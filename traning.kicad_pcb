@@ -3053,7 +3053,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 1 -3.75 360)
+			(at 1 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "8ae69e48-e836-4d18-aeff-68a044557bbc")
 			(effects
@@ -3064,7 +3064,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 1 3.75 360)
+			(at 1 3.75 0)
 			(layer "F.Fab")
 			(uuid "21ff2a1d-363d-40a9-95da-c3a1761d0a2d")
 			(effects
@@ -4362,7 +4362,7 @@
 			(uuid "7b499578-c074-48f1-b28c-eab31ab94d43")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 360)
+			(at 1 0 0)
 			(layer "F.Fab")
 			(uuid "b4b297ee-1b47-4d85-950a-87c142b34c35")
 			(effects
@@ -5361,6 +5361,14 @@
 		(uuid "28f96972-0566-42c6-8f3a-daaf0694701a")
 	)
 	(segment
+		(start 119.38 81.28)
+		(end 119.38 78.74)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "44b9a3c6-8c01-493f-87fa-c93aceab26e6")
+	)
+	(segment
 		(start 129.54 60.96)
 		(end 134.62 60.96)
 		(width 0.2)
@@ -5439,6 +5447,14 @@
 		(layer "F.Cu")
 		(net 8)
 		(uuid "77836b1a-f28d-43d7-901c-6c4cda20ca4b")
+	)
+	(segment
+		(start 119.38 83.82)
+		(end 119.38 86.36)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "9106b056-4faa-4559-8723-7dc537c384c4")
 	)
 	(segment
 		(start 119.38 86.36)
