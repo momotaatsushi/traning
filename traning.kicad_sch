@@ -2510,7 +2510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 226.06 83.82 90)
+		(at 226.06 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2535,7 +2535,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 229.87 82.8548 0)
+			(at 222.25 84.7852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
